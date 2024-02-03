@@ -7,6 +7,7 @@ if (isset($_SESSION['id'])) {
 	header("location: home.php");
 }
 ?>
+
 <?php
 if (isset($_POST['email'])) {
 $email = mysqli_real_escape_string($conn , $_POST['email']);
